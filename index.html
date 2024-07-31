@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="IMAGE/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Analyst</p>
+            <h1>Hi, I'm <span style="color:#00b0f0">Vaishnavi</span></h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="IMAGE/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a recent graduate in Computer Science and Engineering with a specialization in Data Analytics. I have hands-on experience with data visualization tools like Power BI and Tableau, and I am passionate about transforming data into actionable insights. My goal is to leverage my technical skills and analytical abilities to solve complex business problems.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Certificates')">Certificates</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Data Visualization Tools</span><br>Power Bi & Tableau</li>
+                        <li><span>Programming Languages</span><br>Python(Core) & Java(Core)</li>
+                        <li><span>Database Management</span><br>SQL</li>
+                        <li><span>Libraries</span><br>NumPy & Pandas</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2024</span><br>Bachelors Of Technology From JB Institute Of Engineering And Technology Moinabad.</li>
+                        <li><span>2021</span><br>Diploma from Abhinav Hi-Tech College Of Engineering And Technology.</li>
+                        <li><span>2018</span><br>SSC from Kranthi High School Hyderabad.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certificates">
+                    <ul>
+                        <li><span>2024</span><br>Data Analytics Corporate Training Program From Jobaaj Learnings.</li>
+                        <li><span>2024</span><br>SQL (Basics) From HackerRank.</li>
+                        <li><span>2014</span><br>Sliver Badge in Python From HackerRank</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Power BI</h2>
+                <p>Power BI is a business analytics tool developed by Microsoft that enables users to visualize and share insights from their data.</p>
+                <a href="https://en.wikipedia.org/wiki/Microsoft_Power_BI" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Tableau</h2>
+                <p>Tableau is a powerful data visualization tool used for converting raw data into an understandable format. It enables users to create a wide range of visualizations to present data insights.</p>
+                <a href="https://www.tableau.com/why-tableau/what-is-tableau" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>SQL</h2>
+                <p>SQL (Structured Query Language) is a standard programming language specifically designed for managing and manipulating relational databases.</p>
+                <a href="https://en.wikipedia.org/wiki/SQL" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-core"></i>
+                <h2>Python (Core)</h2>
+                <p>Core Python refers to the fundamental aspects of the Python programming language that are essential for any Python programmer.</p>
+                <a href="https://en.wikipedia.org/wiki/History_of_Python" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-libraries"></i>
+                <h2>Libraries<br>(NumPy & Pandas)</h2>
+                <p>Core Python refers to the fundamental aspects of the Python programming language that are essential for any Python programmer.</p>
+                <a href="https://en.wikipedia.org/wiki/History_of_Python" target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------projects------------ -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="projects-list">
+            <div class="projects">
+                <img src="IMAGE/Credit.png">
+                <div class="layer">
+                    <h3>Credit Card Transcation & Customer Dashboard</h3>
+                    <p>Developed a comprehensive Power BI dashboard to visualize and analyze credit card transactions and customer behavior, providing valuable insights to stakeholders and enhancing decision-making-processes.</p>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMGNjZjhiZGMtMGRmMi00MjkxLTk3MjEtOGNjZDNhZGIwODNhIiwidCI6ImNmYTNmYjFiLWE0N2UtNDY4Ni1iY2NiLWM4Y2FlNzk1YjIxOCJ9" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+               </div>     
+            </div>
+            <div class="projects">
+                <img src="IMAGE/Netflix.png">
+                <div class="layer">
+                    <h3>Netflix Dashboard</h3>
+                    <p>Developed an interactive Tableau dashboard to analyze Netflix content, user engagement, and viewing patterns, providing stakeholders with actionable insights to enhance content strategy and user experience.</p>
+                    <a href="https://public.tableau.com/app/profile/kohinoor.vaishnavi/viz/Netflix_17215932901980/Netflix" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="IMAGE/Movie.png">
+                <div class="layer">
+                    <h3>Movie Rating Prediction</h3>
+                    <p>Developed a machine learning model to predict movie ratings using Python, leveraging libraries such as NumPy and pandas for data manipulation and analysis. The project aimed to enhance the recommendation system by providing accurate movie rating predictions based on user behavior and movie features.</p>
+                    <a href="https://kaggle.com/code/vaishukohinoor/project-1-movie-rating-prediction" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.linkedin.com/in/kohinoor-vaishnavi-235988208/" target="_blank" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>vaishu.kohinoor2028@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +91-6300539826</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/kohinoor-vaishnavi-235988208/" target="_blank"><i style="font-size:24px" class="fa">&#xf0e1;</i></a>
+                </div>
+                <a href="IMAGE/Resume.pdf" download class="btn btn2" target="_blank">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©Vaishnavi. Made wtih <i class="fas fa-heart"></i> by <a href="https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA?sub_confirmation=1">Easy Tutorials</a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
